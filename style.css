@@ -1,0 +1,59 @@
+* {
+  font-family:Levenim MT, Calibri, sans-serif;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+.txt {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+div {
+  width: 1200px; 
+  margin: auto; 
+}
+
+u {
+  font-weight:bold;
+}
+
+#title {
+  font-family: Arial;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+}
+
+.vquestion {
+  font-size: 16px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+
+.caption {
+  width: 960px;
+  display: block;
+  margin: auto;
+  font-size: 14px;
+}
+
+svg {
+  padding: 14px 0px 14px 0px;
+  display: block;
+  margin: auto;
+}
+
+form {
+  text-align: center;
+}

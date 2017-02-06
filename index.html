@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+
+<head>
+  <title> Project 1 - Sally Ly</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1 id=title> Exploring 2014 Kansas City Crime Data - Sally Ly </h1>
+  <h5> Source: <a href="https://data.kcmo.org/Crime/crime-data/9u7z-x596">  https://data.kcmo.org/Crime/crime-data/9u7z-x596 </a> </h5>
+  
+  <hr>
+  
+  <div id=v1>
+  <h1 class=vtitle> Visualization #1 </h2>
+  <h2 class=vquestion> Question: Is there a relationship between the amount of crime that occurs/is recorded and the time of the year? Also, does the number of males and females involved in crime fluctuate with the time of year as well? </h2>
+  <div id=vis1> </div>
+  
+  <div class=caption> 
+  <p> <u> Caption: </u>This stacked bar graph shows the total number of recorded crimes during each month of 2014. Each month's data is split between three categories: male, female, and unknown/unrecorded persons who were involved in a crime in one way or another. </p> 
+  </div>
+  
+  <p> <u> Analysis: </u> I thought it would be a good idea to ask a question that looked at all the data points rather than just a subset. Since it was data for only the 2014 year, it made it easy to visualize the number of crimes recorded per month. I wanted to know if crimes rose during the fall or winter where days are shorter and nights are longer. My assumption was that crimes occured more often at night. For the gender question, it's become common for women to fear going out at night so I wanted to know if crimes involving women would increase during the year with longer nights. </p>
+  <p> However, the amount of unrecorded genders make my conclusions from the visualization a bit questionable. From what we have, my assumptions were incorrect and not only were less women involved in crimes during the fall/winter, the total number of recorded crimes overall lowered during these cold months. The peak of crime was during the spring or summer. </p>
+  </div> 
+   
+  <hr>
+  
+  <div id=v2>
+  <h1 class=vtitle> Visualization #2 </h2>
+  <h2 class=vquestion> Question: Are there differences between the types of crimes commited by men or women? </h2>
+  
+  <div id=vis2> 
+  <form>
+  <label> <input type="radio" name="dataset" id="dataset" value="total" checked> Total </label>
+  <label> <input type="radio" name="dataset" id="dataset" value="male"> Men </label>
+  <label> <input type="radio" name="dataset" id="dataset" value="female"> Women </label>
+  </form>
+  </div>
+  
+  <div class=caption>
+  <p> </p>
+  </div>
+  
+  <p> </p>
+  
+  </div>
+  
+  <hr>
+  
+  <script src="../d3/d3.min.js"> </script>
+  <script src="visualization1.js"> </script>
+  <script src="visualization2.js"> </script>/
+  
+</body>
+
+</html>
