@@ -70,14 +70,13 @@ function v2_render(data) {
     .on("change", change);
 
   function change() {
-    var val;
     if (this.value == "male") {
       pie.value(function(d) { return d.m; }); //change values to new ones
     }
-    else if (val == "female") {
+    else if (this.value == "female") {
       pie.value(function(d) { return d.f; }); 
     }
-    else if (val == "total") {
+    else if (this.value == "total") {
       pie.value(function(d) { return d.total; }); 
     }
     path = path.data(pie); //compute new angles
